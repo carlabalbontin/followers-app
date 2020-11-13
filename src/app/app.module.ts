@@ -10,6 +10,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { GithubFollowersComponent } from './github-followers/github-followers.component';
 
 import { GithubFollowersService } from './github-followers/github-followers.service';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { GithubFollowersService } from './github-followers/github-followers.serv
     HomeComponent,
     GithubFollowersComponent,
     AboutComponent,
-    NavbarComponent
+    NavbarComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
